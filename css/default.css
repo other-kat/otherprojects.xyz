@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@font-face { font-family: Cotham; src: url('CothamSans.otf'); } 
+ @font-face { font-family: Cotham; font-weight: bold; src: url('CothamSans.otf');}
+
+ @font-face { font-family: Bagnard; src: url('BagnardSans.otf'); } 
+ @font-face { font-family: Bagnard; font-weight: bold; src: url('BagnardSans.otf');}
+
+@font-face { font-family: Work-Regular; src: url('WorkSans-Regular.otf'); } 
+ @font-face { font-family: Work-Regular; font-weight: bold; src: url('WorkSans-Regular.otf');}
+
+/*main style*/
+main {
+   text-align: center;
+   justify-content: center;
+   margin: 5px;
+   word-spacing: 5px;
+   Padding: 2px;
+   font-size: smaller;
+   font-size: 8vw;
+}
+
+:root {
+   font-family: Cotham;
+   color: #000000;
+   background-color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+   :root {
+   color: #FFFFFF;
+   background-color: #000000;
+   }
+   .accordion {
+  color:#FFFFFF;
+}
+   a {
+      color: #FFFFFF;
+   }
+   nav a {
+   color: #FFFFFF;
+   text-decoration: none;
+   font-size: larger;
+   font-size: 2vw;
+}
+.active, .accordion:hover {
+  background-color: #a4dd00;
+  color:#1e1e1e;
+}
+   a:hover {
+    color:#000000;
+    text-shadow: 0 0 1.5vw white;
+    text-
+}
+footer {
+   color: #FFFFFF;
+}
+}
+
+@media only screen and (max-width: 700px) {
+
+  nav a {
+   font-size: 4vw;
+  }
+  a {
+   font-size: 6vw;
+  }
+  main {
+   font-size: 4vw;
+  }
